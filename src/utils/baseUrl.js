@@ -1,3 +1,3 @@
 export default function baseUrl() {
-    return 'https://take-home-test-api.nutech-integrasi.com'
+    return `${import.meta.env.VITE_SERVER_URL}`
 }
